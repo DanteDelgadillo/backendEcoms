@@ -26,7 +26,7 @@ const storage = multer.diskStorage({
 app.use(multer({ storage }).single("file"));
 
 //db Config
-const db = require("./config/keys").mongoURL;
+// const db = require("./config/keys").mongoURL;
 
 
 
