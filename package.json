@@ -6,6 +6,8 @@
   "scripts": {
     "start": "nodemon server.js",
     "server": "node server.js",
+    "client": "npm run start-----prefix client",
+    "dev": "concurrently\"npm run server\"\"npm run client\"",
     "heroku-postbuld": "cd portfolio && npm install --only=dev && npm run build"
   },
   "author": "Dante",
