@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "start": "nodemon server.js",
-    "server": "node server.js"
+    "server": "node server.js",
+    "heroku-postbuld": "cd portfolio && npm install --only=dev && npm run build"
   },
   "author": "Dante",
   "license": "MIT",
