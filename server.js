@@ -11,6 +11,11 @@ const users = require("./Routes/api/users");
 
 const app = express();
 
+app.get("/"), function (req, res) {
+  res.send('ready')
+}
+
+
 //bodyParser middleware
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
