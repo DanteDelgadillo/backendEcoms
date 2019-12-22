@@ -12,11 +12,7 @@ cloudinary.config({
 // Load user model
 let Stock = require("../../models/Stock")
 
-// @route   GET /test
-// @desc    get 
-// @access  Public
 
-router.get("/test", (req, res) => res.json({ msg: "working" }));
 
 // @route   GET /getAllStock
 // @desc    get All Stock
